@@ -39,6 +39,7 @@ gradlePlugin {
 
     registerExtension("base", description = "The base plugin for ModStitch")
     registerExtension("publishing", description = "Adds mod publishing functionality to ModStitch")
+    registerExtension("shadow", description = "Adds shadow plugin functionality, automatically configured for mod platforms.")
 }
 
 dependencies {
